@@ -252,8 +252,9 @@ img {
 .item-block img {
   width: 27px;
   height: 27px;
+  object-fit: contain;
   border: 0.2px solid #606060;
-  padding: 4px;
+  padding: 4px 3px;
   display: flex;
   align-items: center;
   justify-content: center;
