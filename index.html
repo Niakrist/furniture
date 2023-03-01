@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
   <title>Furniture</title>
 </head>
 
@@ -24,6 +25,9 @@
             <li class="nav__item"><a href="#!" class="nav__link">Page</a></li>
             <li class="nav__item"><a href="#!" class="nav__link">Contact</a></li>
           </ul>
+          <button class="nav__mobile">
+            <span></span>
+          </button>
         </nav>
         <div class="icon__row">
           <a href="#!" class="icon__link"><img src="./img/search.svg" alt=""></a>
@@ -33,379 +37,377 @@
       </div>
     </div>
   </header>
-
   <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__row">
+ 
 
-  <section class="hero">
+          <div class="hero__images"><img src="./img/hero.jpg" alt="">
+            <img src="./img/arrow-left.svg" alt="" class="arrow-left">
+            <img src="./img/arrow-right.svg" alt="" class="arrow-right">
+          </div>
+          <div class="hero__content">
+            <h1 class="hero__title">Get ready for Our stylist chair</h1>
+            <a href="#!" class="hero__shop">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="seller">
+      <div class="container">
+
+        <h2 class="seller__title">Best seller items</h2>
+
+        <div class="seller__items">
+          <div class="item">
+            <div class="item__img">
+              <img src="./img/item-1.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Metal Vintage Pendant</a>
+              <p class="item-price">$79.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot">Hot</span>
+              <span class="discount-num">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item__img">
+              <img src="./img/item-2.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Klosh table clock</a>
+              <p class="item-price">$99.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot" id="none">Hot</span>
+              <span class="discount-num" id="none">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item__img">
+              <img src="./img/item-3.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Arne dining chair</a>
+              <p class="item-price">$350.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot" id="none">Hot</span>
+              <span class="discount-num" id="none">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item__img">
+              <img src="./img/item-4.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Klosh Wall Clock</a>
+              <p class="item-price">$80.00 – $129.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot">Hot</span>
+              <span class="discount-num" id="none">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="seller__items-big">
+          <div class="item-big">
+            <div class="item__img">
+              <img src="./img/item-5.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Metal Vintage Pendant</a>
+              <p class="item-price">$79.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot">Hot</span>
+              <span class="discount-num">-20%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+          <div class="item-big">
+            <div class="item__img">
+              <img src="./img/item-6.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Klosh table clock</a>
+              <p class="item-price">$99.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot" id="none">Hot</span>
+              <span class="discount-num" id="none">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+          <div class="item-big">
+            <div class="item__img">
+              <img src="./img/item-7.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Arne dining chair</a>
+              <p class="item-price">$499.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot">Hot</span>
+              <span class="discount-num">-17%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="deal">
+      <div class="container-right">
+
+        <div class="deal__row">
+          <div class="deal__round">
+            <img src="./img/sofa.png" alt="">
+          </div>
+
+          <div class="deal__content">
+            <a href="#!" class="deal__link">Deal of the week</a>
+            <p class="deal__title">from <span>$99.99<span></p>
+            <p class="deal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio,
+              non
+              ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.</p>
+            <a href="#!" class="hero__shop">Shop now</a>
+            <div class="deal__img-wrapper">
+              <a href="#!" class="deal__img-link"><img src="./img/deal-01.png" alt=""></a>
+              <a href="#!" class="deal__img-link"><img src="./img/deal-02.png" alt=""></a>
+              <a href="#!" class="deal__img-link"><img src="./img/deal-03.png" alt=""></a>
+              <a href="#!" class="deal__img-link"><img src="./img/deal-04.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="trending">
+      <div class="container">
+        <h2 class="trending__title">Trending categories</h2>
+        <div class="trending__row">
+
+          <div class="trending__item active">
+            <div class="trending__item-wrapper">
+              <img class="trending__img" src="./img/table.svg" alt="">
+              <p class="trending__text">Dressing table</p>
+            </div>
+          </div>
+
+          <div class="trending__item">
+            <div class="trending__item-wrapper">
+              <img class="trending__img" src="./img/lamp.svg" alt="">
+              <p class="trending__text">Lamp</p>
+            </div>
+          </div>
+
+          <div class="trending__item">
+            <div class="trending__item-wrapper">
+              <img class="trending__img" src="./img/cabinet.svg" alt="">
+              <p class="trending__text">Cabinet</p>
+            </div>
+          </div>
+
+          <div class="trending__item">
+            <div class="trending__item-wrapper">
+              <img class="trending__img" src="./img/sofa_icon.svg" alt="">
+              <p class="trending__text">Sofa</p>
+            </div>
+          </div>
+
+          <div class="trending__item">
+            <div class="trending__item-wrapper">
+              <img class="trending__img" src="./img/chair.svg" alt="">
+              <p class="trending__text">Chair</p>
+            </div>
+          </div>
+
+          <div class="trending__item">
+            <div class="trending__item-wrapper">
+              <img class="trending__img" src="./img/bed.svg" alt="">
+              <p class="trending__text">Bed</p>
+            </div>
+          </div>
+        </div>
+        <div class="seller__items trending-top">
+          <div class="item">
+            <div class="item__img">
+              <img src="./img/item-8.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Vasagle Vanity Table</a>
+              <p class="item-price">$1,200.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot" id="none">Hot</span>
+              <span class="discount-num" id="none">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item__img">
+              <img src="./img/item-9.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Adkins Dressing Table</a>
+              <p class="item-price">$899.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot" id="none">Hot</span>
+              <span class="discount-num" id="none">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item__img">
+              <img src="./img/item-10.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Hironpal Dressing Table</a>
+              <p class="item-price">$350.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot" id="none">Hot</span>
+              <span class="discount-num" id="none">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item__img">
+              <img src="./img/item-11.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <a href="#!" class="item-name">Deco Dressing Table</a>
+              <p class="item-price">$800.00</p>
+            </div>
+            <div class="discount">
+              <span class="hot" id="none">Hot</span>
+              <span class="discount-num" id="none">-5%</span>
+            </div>
+            <div class="item-block">
+              <img src="./img/refresh.svg" alt="">
+              <img src="./img/like.svg" alt="">
+              <img src="./img/bag-little.svg" alt="">
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+    <section class="footer">
+      <div class="container">
+
+        <span class="footer__logo">Drile</span>
+        <div class="footer__row">
+
+          <ul class="footer__list">
+            <li class="footer__item-title">About US</li>
+            <li class="footer__item"><a href="#!" class="footer__link">About Us</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Contact Us</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Privacy Policy</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Terms of Service</a></li>
+          </ul>
+
+          <ul class="footer__list">
+            <li class="footer__item-title">Company</li>
+            <li class="footer__item"><a href="#!" class="footer__link">Explore World</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Trending Video</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Book a Trip</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Visit Gallery</a></li>
+          </ul>
+
+          <ul class="footer__list">
+            <li class="footer__item-title">Useful links</li>
+            <li class="footer__item"><a href="#!" class="footer__link">Buy this theme</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Drile Landing</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Documentation</a></li>
+            <li class="footer__item"><a href="#!" class="footer__link">Video tutorial</a></li>
+          </ul>
+
+
+          <ul class="footer__list">
+            <li class="footer__item-title">Follow us</li>
+            <li class="footer__item"><a href="#!" class="footer__link-soc"><img src="./img/fb.svg" alt="">Facebook</a>
+            </li>
+            <li class="footer__item"><a href="#!" class="footer__link-soc"><img src="./img/tw.svg" alt="">Twitter</a>
+            </li>
+            <li class="footer__item"><a href="#!" class="footer__link-soc"><img src="./img/ins.svg" alt="">Instagram</a>
+            </li>
+          </ul>
+
+
+        </div>
+
+
+
+
+
+      </div>
+    </section>
+  </main>
+  <footer class="foot">
     <div class="container">
-      <div class="hero__arrow">
-        <img src="./img/arrow-left.svg" alt="" class="arrow-left">
-        <img src="./img/arrow-right.svg" alt="" class="arrow-right">
-      </div>
-      <div class="hero__row">
-        <div class="hero__images"><img src="./img/hero.jpg" alt=""></div>
-        <div class="hero__content">
-          <h1 class="hero__title">Get ready for Our stylist chair</h1>
-          <a href="#!" class="hero__shop">Shop now</a>
-        </div>
+      <div class="foot__copy">
+        © Copyright 2022 | drile | All right reserved.
       </div>
     </div>
-  </section>
-
-  <section class="seller">
-    <div class="container">
-
-      <h2 class="seller__title">Best seller items</h2>
-
-      <div class="seller__items">
-        <div class="item">
-          <div class="item__img">
-            <img src="./img/item-1.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Metal Vintage Pendant</a>
-            <p class="item-price">$79.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot">Hot</span>
-            <span class="discount-num">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item__img">
-            <img src="./img/item-2.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Klosh table clock</a>
-            <p class="item-price">$99.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot" id="none">Hot</span>
-            <span class="discount-num" id="none">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item__img">
-            <img src="./img/item-3.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Arne dining chair</a>
-            <p class="item-price">$350.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot" id="none">Hot</span>
-            <span class="discount-num" id="none">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item__img">
-            <img src="./img/item-4.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Klosh Wall Clock</a>
-            <p class="item-price">$80.00 – $129.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot">Hot</span>
-            <span class="discount-num" id="none">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-      </div>
-
-      <div class="seller__items-big">
-        <div class="item-big">
-          <div class="item__img">
-            <img src="./img/item-5.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Metal Vintage Pendant</a>
-            <p class="item-price">$79.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot">Hot</span>
-            <span class="discount-num">-20%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-        <div class="item-big">
-          <div class="item__img">
-            <img src="./img/item-6.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Klosh table clock</a>
-            <p class="item-price">$99.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot" id="none">Hot</span>
-            <span class="discount-num" id="none">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-        <div class="item-big">
-          <div class="item__img">
-            <img src="./img/item-7.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Arne dining chair</a>
-            <p class="item-price">$499.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot">Hot</span>
-            <span class="discount-num">-17%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="deal">
-    <div class="container-right">
-
-      <div class="deal__row">
-        <div class="deal__round">
-          <img src="./img/sofa.png" alt="">
-        </div>
-
-        <div class="deal__content">
-          <a href="#!" class="deal__link">Deal of the week</a>
-          <p class="deal__title">from <span>$99.99<span></p>
-          <p class="deal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non
-            ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.</p>
-          <a href="#!" class="hero__shop">Shop now</a>
-          <div class="deal__img-wrapper">
-            <a href="#!" class="deal__img-link"><img src="./img/deal-01.png" alt=""></a>
-            <a href="#!" class="deal__img-link"><img src="./img/deal-02.png" alt=""></a>
-            <a href="#!" class="deal__img-link"><img src="./img/deal-03.png" alt=""></a>
-            <a href="#!" class="deal__img-link"><img src="./img/deal-04.png" alt=""></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="trending">
-    <div class="container">
-      <h2 class="trending__title">Trending categories</h2>
-      <div class="trending__row">
-
-        <div class="trending__item active">
-          <div class="trending__item-wrapper">
-            <img class="trending__img" src="./img/table.svg" alt="">
-            <p class="trending__text">Dressing table</p>
-          </div>
-        </div>
-
-        <div class="trending__item">
-          <div class="trending__item-wrapper">
-            <img class="trending__img" src="./img/lamp.svg" alt="">
-            <p class="trending__text">Lamp</p>
-          </div>
-        </div>
-
-        <div class="trending__item">
-          <div class="trending__item-wrapper">
-            <img class="trending__img" src="./img/cabinet.svg" alt="">
-            <p class="trending__text">Cabinet</p>
-          </div>
-        </div>
-
-        <div class="trending__item">
-          <div class="trending__item-wrapper">
-            <img class="trending__img" src="./img/sofa_icon.svg" alt="">
-            <p class="trending__text">Sofa</p>
-          </div>
-        </div>
-
-        <div class="trending__item">
-          <div class="trending__item-wrapper">
-            <img class="trending__img" src="./img/chair.svg" alt="">
-            <p class="trending__text">Chair</p>
-          </div>
-        </div>
-
-        <div class="trending__item">
-          <div class="trending__item-wrapper">
-            <img class="trending__img" src="./img/bed.svg" alt="">
-            <p class="trending__text">Bed</p>
-          </div>
-        </div>
-      </div>
-      <div class="seller__items trending-top">
-        <div class="item">
-          <div class="item__img">
-            <img src="./img/item-8.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Vasagle Vanity Table</a>
-            <p class="item-price">$1,200.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot" id="none">Hot</span>
-            <span class="discount-num" id="none">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item__img">
-            <img src="./img/item-9.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Adkins Dressing Table</a>
-            <p class="item-price">$899.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot" id="none">Hot</span>
-            <span class="discount-num" id="none">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item__img">
-            <img src="./img/item-10.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Hironpal Dressing Table</a>
-            <p class="item-price">$350.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot" id="none">Hot</span>
-            <span class="discount-num" id="none">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item__img">
-            <img src="./img/item-11.jpg" alt="">
-          </div>
-          <div class="item__content">
-            <a href="#!" class="item-name">Deco Dressing Table</a>
-            <p class="item-price">$800.00</p>
-          </div>
-          <div class="discount">
-            <span class="hot" id="none">Hot</span>
-            <span class="discount-num" id="none">-5%</span>
-          </div>
-          <div class="item-block">
-            <img src="./img/refresh.svg" alt="">
-            <img src="./img/like.svg" alt="">
-            <img src="./img/bag-little.svg" alt="">
-          </div>
-        </div>
-
-      </div>
-
-  </section>
-
-  <section class="footer">
-    <div class="container">
-
-      <span class="footer__logo">Drile</span>
-      <div class="footer__row">
-
-        <ul class="footer__list">
-          <li class="footer__item-title">About US</li>
-          <li class="footer__item"><a href="#!" class="footer__link">About Us</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Contact Us</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Privacy Policy</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Terms of Service</a></li>
-        </ul>
-
-        <ul class="footer__list">
-          <li class="footer__item-title">Company</li>
-          <li class="footer__item"><a href="#!" class="footer__link">Explore World</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Trending Video</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Book a Trip</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Visit Gallery</a></li>
-        </ul>
-
-        <ul class="footer__list">
-          <li class="footer__item-title">Useful links</li>
-          <li class="footer__item"><a href="#!" class="footer__link">Buy this theme</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Drile Landing</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Documentation</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link">Video tutorial</a></li>
-        </ul>
-
-
-        <ul class="footer__list">
-          <li class="footer__item-title">Follow us</li>
-          <li class="footer__item"><a href="#!" class="footer__link-soc"><img src="./img/fb.svg" alt="">Facebook</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link-soc"><img src="./img/tw.svg" alt="">Twitter</a></li>
-          <li class="footer__item"><a href="#!" class="footer__link-soc"><img src="./img/ins.svg" alt="">Instagram</a></li>
-        </ul>
-
-
-      </div>
-
-
-
-
-
-    </div>
-  </section>
-
-</main>
-
-<footer class="foot">
-  <div class="container">
-    <div class="foot__copy">
-      © Copyright 2022 | drile | All right reserved.
-    </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
 
